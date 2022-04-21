@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JpaBuddyIdeaProjectConfig">
+    <option name="defaultUnitInitialized" value="true" />
+    <option name="reverseEngineeringLastDbConnectionId" value="09dfca70-9622-4637-bf6e-545a128d5c88" />
+    <option name="reLastEntityCreationPackage" value="src/main/java/dhbw/datenbanken/ormexample/data/model" />
+    <option name="newEntityIdStrategy" />
+  </component>
+</project>

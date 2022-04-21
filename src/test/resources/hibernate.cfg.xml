@@ -1,0 +1,12 @@
+<hibernate-configuration>
+    <session-factory>
+        <property name="javax.persistence.validation.group.pre-persist">javax.validation.groups.Default</property>
+        <property name="javax.persistence.validation.group.pre-update">javax.validation.groups.Default</property>
+        <event type="pre-update">
+            <listener class="org.hibernate.cfg.beanvalidation.BeanValidationEventListener"/>
+        </event>
+        <event type="pre-insert">
+            <listener class="org.hibernate.cfg.beanvalidation.BeanValidationEventListener"/>
+        </event>
+    </session-factory>
+</hibernate-configuration>
